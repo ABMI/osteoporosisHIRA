@@ -1,6 +1,6 @@
 # Copyright 2020 Observational Health Data Sciences and Informatics
 #
-# This file is part of osteoporosisHIRA
+# This file is part of osteoHIRA1223
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,13 +16,13 @@
 
 # Format and check code ---------------------------------------------------
 OhdsiRTools::formatRFolder()
-OhdsiRTools::checkUsagePackage("osteoporosisHIRA")
+OhdsiRTools::checkUsagePackage("osteoHIRA1223")
 OhdsiRTools::updateCopyrightYearFolder()
 devtools::spell_check()
 
 # Create manual -----------------------------------------------------------
-unlink("extras/osteoporosisHIRA.pdf")
-shell("R CMD Rd2pdf ./ --output=extras/osteoporosisHIRA.pdf")
+unlink("extras/osteoHIRA1223.pdf")
+shell("R CMD Rd2pdf ./ --output=extras/osteoHIRA1223.pdf")
 
 # Create vignettes ---------------------------------------------------------
 rmarkdown::render("vignettes/UsingSkeletonPackage.Rmd",
@@ -43,7 +43,7 @@ ROhdsiWebApi::insertCohortDefinitionSetInPackage(fileName = "CohortsToCreate.csv
                                                  insertTableSql = TRUE,
                                                  insertCohortCreationR = TRUE,
                                                  generateStats = FALSE,
-                                                 packageName = "osteoporosisHIRA")
+                                                 packageName = "osteoHIRA1223")
 
 # Create analysis details -------------------------------------------------
 source("extras/CreateStudyAnalysisDetails.R")
@@ -51,4 +51,4 @@ createAnalysesDetails("inst/settings/")
 createPositiveControlSynthesisArgs("inst/settings/")
 
 # Store environment in which the study was executed -----------------------
-OhdsiRTools::createRenvLockFile("osteoporosisHIRA")
+OhdsiRTools::createRenvLockFile("osteoHIRA1223")
