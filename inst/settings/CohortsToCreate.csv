@@ -13,6 +13,9 @@ atlasId,atlasName,cohortId,name
 2072,[PCH] Renal impairment - osteoporosis,2072,PCH_Renal_impairment__osteoporosis
 2073,[PCH] Chronic kidney disease - osteoporosis,2073,PCH_Chronic_kidney_disease__osteoporosis
 2074,[PCH] atypical femoral fracture - osteoporosis,2074,PCH_atypical_femoral_fracture__osteoporosis
+2611,[PCH] closed fracture of forearm - osteoporosis,2611,PCH_closed_fracture_of_forearm__osteoporosis
+2612,[PCH] closed fracture of humerus - osteoporosis,2612,PCH_closed_fracture_of_humerus__osteoporosis
+2613,[PCH] closed fracture of shoulder - osteoporosis,2613,PCH_closed_fracture_of_shoulder__osteoporosis
 2045,[PCH] Osteoporosis & ibandronate,2045,PCH_Osteoporosis__ibandronate
 2065,[PCH] Osteoporosis & denosumab,2065,PCH_Osteoporosis__denosumab
 2064,[PCH] Osteoporosis & bisphosphonate,2064,PCH_Osteoporosis__bisphosphonate

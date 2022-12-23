@@ -1,6 +1,6 @@
 # Copyright 2020 Observational Health Data Sciences and Informatics
 #
-# This file is part of bisphosphonate
+# This file is part of osteoporosisHIRA
 # 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -85,7 +85,7 @@ prepareForEvidenceExplorer <- function(resultsZipFile, dataFolder) {
 #' @export
 launchEvidenceExplorer <- function(dataFolder, blind = TRUE, launch.browser = TRUE) {
   ensure_installed("DT")
-  appDir <- system.file("shiny", "EvidenceExplorer", package = "bisphosphonate")
+  appDir <- system.file("shiny", "EvidenceExplorer", package = "osteoporosisHIRA")
   .GlobalEnv$shinySettings <- list(dataFolder = dataFolder, blind = blind)
   on.exit(rm(shinySettings, envir=.GlobalEnv))
   shiny::runApp(appDir) 

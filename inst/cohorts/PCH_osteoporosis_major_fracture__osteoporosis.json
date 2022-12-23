@@ -65,11 +65,45 @@
         "isExcluded": false,
         "concept": {
           "INVALID_REASON_CAPTION": "Valid",
-          "CONCEPT_ID": 40480160,
+          "CONCEPT_ID": 441974,
           "STANDARD_CONCEPT": "S",
-          "CONCEPT_CODE": "443165006",
+          "CONCEPT_CODE": "91419009",
           "VOCABULARY_ID": "SNOMED",
-          "CONCEPT_NAME": "Pathological fracture due to osteoporosis",
+          "CONCEPT_NAME": "Closed fracture of forearm",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 441422,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "43295006",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Closed fracture of humerus",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45766940,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "704210003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Closed fracture of shoulder",
           "DOMAIN_ID": "Condition",
           "STANDARD_CONCEPT_CAPTION": "Standard",
           "CONCEPT_CLASS_ID": "Clinical Finding",
@@ -80,7 +114,7 @@
       }
     ]},
     "name": "[PCH] osteoporosis major fracture",
-    "id": 7
+    "id": 0
   }],
   "EndStrategy": {"DateOffset": {
     "DateField": "StartDate",
@@ -95,7 +129,7 @@
       "OccurrenceEndDate": null,
       "CorrelatedCriteria": null,
       "ConditionTypeExclude": false,
-      "CodesetId": 7,
+      "CodesetId": 0,
       "ProviderSpecialty": null,
       "Gender": null,
       "VisitType": null,

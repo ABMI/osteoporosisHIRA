@@ -5,11 +5,11 @@
 	"actions":[{
 		"type": "fileNameFindAndReplace",
 		"input": "packageName",
-		"find": "bisphosphonate"
+		"find": "osteoporosisHIRA"
 	},{
 		"type": "stringFindAndReplace",
 		"input": "packageName",
-		"find": "bisphosphonate"
+		"find": "osteoporosisHIRA"
 	},{
 		"type": "jsonArrayToCsv",
 		"input": "cohortDefinitions",
