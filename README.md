@@ -1,4 +1,4 @@
-osteoHIRA1223
+osteoHIRA1224
 ==============================
 
 
@@ -26,7 +26,7 @@ How to run
 3. Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRun.R`:
 
 	```r
-	library(osteoHIRA1223)
+	library(osteoHIRA1224)
 	
   # Optional: specify where the temporary files (used by the Andromeda package) will be created:
   options(andromedaTempFolder = "c:/andromedaTemp")
@@ -38,7 +38,7 @@ How to run
 	minCellCount <- 5
 	
 	# The folder where the study intermediate and result files will be written:
-	outputFolder <- "c:/osteoHIRA1223"
+	outputFolder <- "c:/osteoHIRA1224"
 	
 	# Details for connecting to the server:
 	# See ?DatabaseConnector::createConnectionDetails for help
@@ -97,11 +97,11 @@ How to run
 
 License
 =======
-The osteoHIRA1223 package is licensed under Apache License 2.0
+The osteoHIRA1224 package is licensed under Apache License 2.0
 
 Development
 ===========
-osteoHIRA1223 was developed in ATLAS and R Studio.
+osteoHIRA1224 was developed in ATLAS and R Studio.
 
 ### Development status
 

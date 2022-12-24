@@ -5,11 +5,11 @@
 	"actions":[{
 		"type": "fileNameFindAndReplace",
 		"input": "packageName",
-		"find": "osteoHIRA1223"
+		"find": "osteoHIRA1224"
 	},{
 		"type": "stringFindAndReplace",
 		"input": "packageName",
-		"find": "osteoHIRA1223"
+		"find": "osteoHIRA1224"
 	},{
 		"type": "jsonArrayToCsv",
 		"input": "cohortDefinitions",

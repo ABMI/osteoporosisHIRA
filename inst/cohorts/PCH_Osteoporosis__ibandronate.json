@@ -150,86 +150,6 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 1557272,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "46041",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "alendronate",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Ingredient",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21604152,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "M05BA04",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "alendronic acid; oral",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        }
-      ]},
-      "name": "[PCH] Alendronate",
-      "id": 14
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 1516800,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "73056",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "risedronate",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Ingredient",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21604155,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "M05BA07",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "risedronic acid; oral",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        }
-      ]},
-      "name": "[PCH] Risedronate",
-      "id": 15
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 40222444,
             "STANDARD_CONCEPT": "S",
             "CONCEPT_CODE": "993449",
@@ -354,6 +274,120 @@
       ]},
       "name": "[PCH] exclusion criteria (paget, hip fracture, high energy trauma, malignant neoplasm)",
       "id": 17
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1557272,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "46041",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alendronate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21604160,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "M05BB03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "alendronic acid and colecalciferol; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21604152,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "M05BA04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "alendronic acid; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[PCH] Alendronate",
+      "id": 18
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1516800,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "73056",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "risedronate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21604155,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "M05BA07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "risedronic acid; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45893276,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "M05BB07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "risedronic acid and colecalciferol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "[PCH] Risedronate",
+      "id": 19
     }
   ],
   "EndStrategy": {"CustomEra": {
@@ -459,7 +493,7 @@
               "OccurrenceEndDate": null,
               "CorrelatedCriteria": null,
               "DrugSourceConcept": null,
-              "CodesetId": 14,
+              "CodesetId": 18,
               "DrugTypeExclude": false,
               "Quantity": null,
               "DrugType": null,
@@ -504,7 +538,7 @@
               "OccurrenceEndDate": null,
               "CorrelatedCriteria": null,
               "DrugSourceConcept": null,
-              "CodesetId": 15,
+              "CodesetId": 19,
               "DrugTypeExclude": false,
               "Quantity": null,
               "DrugType": null,

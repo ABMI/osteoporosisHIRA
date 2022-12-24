@@ -150,6 +150,97 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 75910,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2089002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteitis deformans",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4300192,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "77493009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture of pelvis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4264281,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "397181002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Open fracture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4230399,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "359817006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Closed fracture of hip",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443392,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "363346000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Malignant neoplastic disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[PCH] exclusion criteria (paget, hip fracture, high energy trauma, malignant neoplasm)",
+      "id": 13
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 1516800,
             "STANDARD_CONCEPT": "S",
             "CONCEPT_CODE": "73056",
@@ -235,6 +326,23 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21604160,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "M05BB03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "alendronic acid and colecalciferol; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 21604152,
             "STANDARD_CONCEPT": "C",
             "CONCEPT_CODE": "M05BA04",
@@ -247,101 +355,27 @@
           },
           "includeMapped": false,
           "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45893276,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "M05BB07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "risedronic acid and colecalciferol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         }
       ]},
       "name": "[PCH] bisphosphonate",
-      "id": 11
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 75910,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "2089002",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Osteitis deformans",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4300192,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "77493009",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Fracture of pelvis",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4264281,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "397181002",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Open fracture",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4230399,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "359817006",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Closed fracture of hip",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 443392,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "363346000",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Malignant neoplastic disease",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        }
-      ]},
-      "name": "[PCH] exclusion criteria (paget, hip fracture, high energy trauma, malignant neoplasm)",
-      "id": 13
+      "id": 14
     }
   ],
   "EndStrategy": {"CustomEra": {
@@ -355,7 +389,7 @@
     "OccurrenceEndDate": null,
     "CorrelatedCriteria": null,
     "DrugSourceConcept": null,
-    "CodesetId": 11,
+    "CodesetId": 14,
     "DrugTypeExclude": false,
     "Quantity": null,
     "DrugType": null,
@@ -446,7 +480,7 @@
             "OccurrenceEndDate": null,
             "CorrelatedCriteria": null,
             "DrugSourceConcept": null,
-            "CodesetId": 11,
+            "CodesetId": 14,
             "DrugTypeExclude": false,
             "Quantity": null,
             "DrugType": null,
