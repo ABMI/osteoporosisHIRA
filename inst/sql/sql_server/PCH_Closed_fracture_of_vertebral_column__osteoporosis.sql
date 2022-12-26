@@ -198,3 +198,6 @@ DROP TABLE #included_events;
 
 TRUNCATE TABLE #Codesets;
 DROP TABLE #Codesets;
+
+TRUNCATE TABLE #CodeSetData_9;
+DROP TABLE #CodeSetData_9;
