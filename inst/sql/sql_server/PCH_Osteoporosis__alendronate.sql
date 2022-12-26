@@ -619,3 +619,26 @@ DROP TABLE #included_events;
 
 TRUNCATE TABLE #Codesets;
 DROP TABLE #Codesets;
+
+TRUNCATE TABLE #CodeSetData_1;
+DROP TABLE #CodeSetData_1;
+
+TRUNCATE TABLE #CodeSetData_11;
+DROP TABLE #CodeSetData_11;
+
+TRUNCATE TABLE #CodeSetData_15;
+DROP TABLE #CodeSetData_15;
+
+TRUNCATE TABLE #CodeSetData_16;
+DROP TABLE #CodeSetData_16;
+
+TRUNCATE TABLE #CodeSetData_17;
+DROP TABLE #CodeSetData_17;
+
+TRUNCATE TABLE #CodeSetData_18;
+DROP TABLE #CodeSetData_18;
+
+
+TRUNCATE TABLE #CodeSetData_19;
+DROP TABLE #CodeSetData_19;
+
