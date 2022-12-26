@@ -115,6 +115,15 @@ into #CodeSetData_18
 FROM @cdm_database_schema.DRUG_EXPOSURE de
 JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 18));
 
+--------------------------------------------------------- alendronate extra code
+UPDATE #CodeSetData_18
+SET drug_exposure_end_date = 
+case 
+when drug_source_value IN ('644500230', '655500710', '657200450', '657200460', 'A02003951', 'A02003941', 'A09703631', '644500240') THEN  dateadd(day, quantity-1, drug_exposure_start_date)
+ELSE dateadd(day, quantity*7-1, drug_exposure_start_date)
+END;
+---------------------------------------------------------
+
 select de.* 
 into #CodeSetData_19
 FROM @cdm_database_schema.DRUG_EXPOSURE de

@@ -116,6 +116,17 @@ into #CodeSetData_18
 FROM @cdm_database_schema.DRUG_EXPOSURE de
 JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 18));
 
+--------------------------------------------------------- risedronate extra code
+UPDATE #CodeSetData_18
+SET drug_exposure_end_date = 
+case 
+when drug_source_value IN ('652103880', '053300070', '625200790', '628900630', '640005770', '642103870', '642403470', '642506210', '642705420', '643305680', '643505490', '644307910', '644913010', '645203450', '645207300', '645403390', '645702130', '648103450', '648203310', '648506260', '649102980', '649404730', '649702470', '649805050', '650302690', '651805570', '652602900', '652903120', '653102330', '653401980', '653701880', '653804430', '655604220', '659900580', '665506010', '668901770', '669501060', '670401250', '670605380', '684500480', '694204930', '697100580', 'A33203581', 'E01300571') THEN  dateadd(day, quantity*30-1, drug_exposure_start_date)
+when drug_source_value IN ('644703360') THEN  dateadd(day, quantity*15-1, drug_exposure_start_date)
+when drug_source_value IN ('642103130', '643304750', '652100900', 'B07404671') THEN  dateadd(day, quantity-1, drug_exposure_start_date)
+ELSE dateadd(day, quantity*7-1, drug_exposure_start_date)
+END;
+---------------------------------------------------------
+
 select de.* 
 into #CodeSetData_19
 FROM @cdm_database_schema.DRUG_EXPOSURE de

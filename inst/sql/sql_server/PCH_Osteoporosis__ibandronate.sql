@@ -103,6 +103,14 @@ into #CodeSetData_13
 FROM @cdm_database_schema.DRUG_EXPOSURE de
 JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 13));
 
+--------------------------------------------------------- ibandronate extra code
+UPDATE #CodeSetData_13
+SET drug_exposure_end_date = 
+case 
+when drug_source_value IN ('645000310', '625200540', '626900310', '628800520', '641704410', '642003080', '642904480', '643703610', '644308590', '644501860', '644602670', '645403680', '645604140', '645905420', '646203670', '648506730', '648602510', '649506250', '650102490', '650204450', '650303090', '651203800', '652105740', '652301120', '654004120', '655403010', '656003260', '657202450', '657502780', '657804920', '664602070', '665001720', '669804200', '670103390', '670606180', '670701640', '671703940', '674401320', '697100370', '698502260', 'E01840821') THEN  dateadd(day, quantity*30-1, drug_exposure_start_date)
+ELSE dateadd(day, quantity*90-1, drug_exposure_start_date)
+END;
+---------------------------------------------------------
 
 select de.* 
 into #CodeSetData_16

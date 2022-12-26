@@ -78,6 +78,15 @@ into #CodeSetData_10
 FROM @cdm_database_schema.DRUG_EXPOSURE de
 JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 10));
 
+--------------------------------------------------------- denosumab extra code
+UPDATE #CodeSetData_10
+SET drug_exposure_end_date = 
+case 
+when drug_source_value IN ('052300041') THEN  dateadd(day, quantity*180-1, drug_exposure_start_date)
+ELSE dateadd(day, quantity*30-1, drug_exposure_start_date)
+END;
+--------------------------------------------------------- 
+
 SELECT co.* 
 into #CodeSetData_13
 FROM @cdm_database_schema.condition_occurrence_covid19 co
