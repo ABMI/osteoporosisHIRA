@@ -1,5 +1,5 @@
 {
-  "ExpressionLimit": {"Type": "All"},
+  "ExpressionLimit": {"Type": "First"},
   "CollapseSettings": {
     "CollapseType": "ERA",
     "EraPad": 0
@@ -26,8 +26,8 @@
       "includeMapped": false,
       "includeDescendants": true
     }]},
-    "name": "[PCH] Acute renal impairment",
-    "id": 9
+    "name": "[PCH] Acute renal failure",
+    "id": 1
   }],
   "EndStrategy": {"DateOffset": {
     "DateField": "StartDate",
@@ -42,11 +42,11 @@
       "OccurrenceEndDate": null,
       "CorrelatedCriteria": null,
       "ConditionTypeExclude": false,
-      "CodesetId": 9,
+      "CodesetId": 1,
       "ProviderSpecialty": null,
       "Gender": null,
       "VisitType": null,
-      "First": null,
+      "First": true,
       "OccurrenceStartDate": null,
       "ConditionType": null,
       "ConditionSourceConcept": null,
@@ -54,7 +54,7 @@
       "StopReason": null,
       "Age": null
     }}],
-    "PrimaryCriteriaLimit": {"Type": "All"},
+    "PrimaryCriteriaLimit": {"Type": "First"},
     "ObservationWindow": {
       "PostDays": 0,
       "PriorDays": 0

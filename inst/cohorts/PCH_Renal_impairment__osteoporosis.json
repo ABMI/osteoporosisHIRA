@@ -1,5 +1,5 @@
 {
-  "ExpressionLimit": {"Type": "All"},
+  "ExpressionLimit": {"Type": "First"},
   "CollapseSettings": {
     "CollapseType": "ERA",
     "EraPad": 0
@@ -46,7 +46,7 @@
       "ProviderSpecialty": null,
       "Gender": null,
       "VisitType": null,
-      "First": null,
+      "First": true,
       "OccurrenceStartDate": null,
       "ConditionType": null,
       "ConditionSourceConcept": null,
@@ -54,7 +54,7 @@
       "StopReason": null,
       "Age": null
     }}],
-    "PrimaryCriteriaLimit": {"Type": "All"},
+    "PrimaryCriteriaLimit": {"Type": "First"},
     "ObservationWindow": {
       "PostDays": 0,
       "PriorDays": 0

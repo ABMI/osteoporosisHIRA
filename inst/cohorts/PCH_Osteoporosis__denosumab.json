@@ -36,80 +36,6 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 1524674,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "77655",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "zoledronic acid",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Ingredient",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21604156,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "M05BA08",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "zoledronic acid; parenteral",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 1511646,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "11473",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "pamidronate",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Ingredient",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21604151,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "M05BA03",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "pamidronic acid; parenteral",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        }
-      ]},
-      "name": "[PCH] other bisphosphonate",
-      "id": 9
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 40222444,
             "STANDARD_CONCEPT": "S",
             "CONCEPT_CODE": "993449",
@@ -167,45 +93,11 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4300192,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "77493009",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Fracture of pelvis",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 4264281,
             "STANDARD_CONCEPT": "S",
             "CONCEPT_CODE": "397181002",
             "VOCABULARY_ID": "SNOMED",
             "CONCEPT_NAME": "Open fracture",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4230399,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "359817006",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Closed fracture of hip",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
@@ -232,7 +124,7 @@
           "includeDescendants": true
         }
       ]},
-      "name": "[PCH] exclusion criteria (paget, hip fracture, high energy trauma, malignant neoplasm)",
+      "name": "[PCH] exclusion criteria (paget, high energy trauma, malignant neoplasm)",
       "id": 13
     },
     {
@@ -241,11 +133,11 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 1516800,
+            "CONCEPT_ID": 1524674,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "73056",
+            "CONCEPT_CODE": "77655",
             "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "risedronate",
+            "CONCEPT_NAME": "zoledronic acid",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Ingredient",
@@ -258,11 +150,11 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 1557272,
+            "CONCEPT_ID": 1511646,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "46041",
+            "CONCEPT_CODE": "11473",
             "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "alendronate",
+            "CONCEPT_NAME": "pamidronate",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Ingredient",
@@ -275,14 +167,167 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 1512480,
+            "CONCEPT_ID": 1521987,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "115264",
+            "CONCEPT_CODE": "32915",
             "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "ibandronate",
+            "CONCEPT_NAME": "teriparatide",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1511251,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2123126",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "romosozumab",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1513103,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "72143",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "raloxifene",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44506794,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1441386",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "bazedoxifene",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21604156,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "M05BA08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "zoledronic acid; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21604151,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "M05BA03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "pamidronic acid; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602783,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "H05AA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "teriparatide; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1501781,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "M05BX06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "romosozumab",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602625,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "G03XC01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "raloxifene; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602626,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "G03XC02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "bazedoxifene; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
@@ -309,11 +354,79 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45893276,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "M05BB07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "risedronic acid and colecalciferol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1516800,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "73056",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "risedronate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 21604154,
             "STANDARD_CONCEPT": "C",
             "CONCEPT_CODE": "M05BA06",
             "VOCABULARY_ID": "ATC",
             "CONCEPT_NAME": "ibandronic acid; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1512480,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "115264",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ibandronate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21604152,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "M05BA04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "alendronic acid; oral",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Classification",
             "CONCEPT_CLASS_ID": "ATC 5th",
@@ -343,45 +456,28 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21604152,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "M05BA04",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "alendronic acid; oral",
+            "CONCEPT_ID": 1557272,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "46041",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alendronate",
             "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
           "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 45893276,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "M05BB07",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "risedronic acid and colecalciferol",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
         }
       ]},
-      "name": "[PCH] bisphosphonate",
-      "id": 14
+      "name": "[PCH] bisphosphonate and other osteoporosis drug",
+      "id": 15
     }
   ],
   "EndStrategy": {"CustomEra": {
     "DrugCodesetId": 10,
     "DaysSupplyOverride": null,
-    "GapDays": 30,
+    "GapDays": 180,
     "Offset": 0
   }},
   "cdmVersionRange": ">=5.0.0",
@@ -389,7 +485,7 @@
     "OccurrenceEndDate": null,
     "CorrelatedCriteria": null,
     "DrugSourceConcept": null,
-    "CodesetId": 14,
+    "CodesetId": 15,
     "DrugTypeExclude": false,
     "Quantity": null,
     "DrugType": null,
@@ -480,7 +576,7 @@
             "OccurrenceEndDate": null,
             "CorrelatedCriteria": null,
             "DrugSourceConcept": null,
-            "CodesetId": 14,
+            "CodesetId": 15,
             "DrugTypeExclude": false,
             "Quantity": null,
             "DrugType": null,
@@ -510,62 +606,7 @@
         "Groups": [],
         "Count": null
       },
-      "name": "exclude bisphosphonate intake before",
-      "description": null
-    },
-    {
-      "expression": {
-        "CriteriaList": [{
-          "RestrictVisit": false,
-          "StartWindow": {
-            "UseEventEnd": false,
-            "Start": {
-              "Days": null,
-              "Coeff": -1
-            },
-            "End": {
-              "Days": null,
-              "Coeff": 1
-            },
-            "UseIndexEnd": false
-          },
-          "IgnoreObservationPeriod": false,
-          "EndWindow": null,
-          "Criteria": {"DrugExposure": {
-            "OccurrenceEndDate": null,
-            "CorrelatedCriteria": null,
-            "DrugSourceConcept": null,
-            "CodesetId": 9,
-            "DrugTypeExclude": false,
-            "Quantity": null,
-            "DrugType": null,
-            "ProviderSpecialty": null,
-            "EffectiveDrugDose": null,
-            "Gender": null,
-            "DaysSupply": null,
-            "DoseUnit": null,
-            "VisitType": null,
-            "Refills": null,
-            "First": null,
-            "OccurrenceStartDate": null,
-            "RouteConcept": null,
-            "StopReason": null,
-            "LotNumber": null,
-            "Age": null
-          }},
-          "Occurrence": {
-            "Type": 0,
-            "CountColumn": null,
-            "IsDistinct": false,
-            "Count": 0
-          }
-        }],
-        "Type": "ALL",
-        "DemographicCriteriaList": [],
-        "Groups": [],
-        "Count": null
-      },
-      "name": "exclude other bisphosphonate (zoledronic acid, pamidronate)",
+      "name": "exclude bisphosphonate and other osteoporosis drug intake before",
       "description": null
     },
     {
@@ -614,7 +655,7 @@
         "Groups": [],
         "Count": null
       },
-      "name": "exclude paget, hip fracture, high energy trauma, neoplasm before index date",
+      "name": "exclude paget, high energy trauma, neoplasm before index date",
       "description": null
     }
   ],

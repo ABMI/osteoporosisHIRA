@@ -1,20 +1,35 @@
 atlasId,atlasName,cohortId,name
-626,[PCH] Osteoporosis & risedronate,626,PCH_Osteoporosis__risedronate
-2046,[PCH] Osteoporosis & alendronate,2046,PCH_Osteoporosis__alendronate
-2048,[PCH] Pathological fracture due to osteoporosis - osteoporosis,2048,PCH_Pathological_fracture_due_to_osteoporosis__osteoporosis
+2065,[PCH] Osteoporosis & denosumab,2065,PCH_Osteoporosis__denosumab
+2064,[PCH] Osteoporosis & bisphosphonate,2064,PCH_Osteoporosis__bisphosphonate
 2049,[PCH] Closed fracture of femur - osteoporosis,2049,PCH_Closed_fracture_of_femur__osteoporosis
 2050,[PCH] Closed fracture of pelvis - osteoporosis,2050,PCH_Closed_fracture_of_pelvis__osteoporosis
 2051,[PCH] Closed fracture of vertebral column - osteoporosis,2051,PCH_Closed_fracture_of_vertebral_column__osteoporosis
 2066,[PCH] osteoporosis major fracture - osteoporosis,2066,PCH_osteoporosis_major_fracture__osteoporosis
-2068,[PCH] Acute renal impairment - osteoporosis,2068,PCH_Acute_renal_impairment__osteoporosis
+2069,[PCH] Osteonecrosis of jaw - osteoporosis,2069,PCH_Osteonecrosis_of_jaw__osteoporosis
 2070,[PCH] Mortality - osteoporosis,2070,PCH_Mortality__osteoporosis
-2071,[PCH] atrial fibrillation - osteoporosis,2071,PCH_atrial_fibrillation__osteoporosis
 2072,[PCH] Renal impairment - osteoporosis,2072,PCH_Renal_impairment__osteoporosis
-2073,[PCH] Chronic kidney disease - osteoporosis,2073,PCH_Chronic_kidney_disease__osteoporosis
 2074,[PCH] atypical femoral fracture - osteoporosis,2074,PCH_atypical_femoral_fracture__osteoporosis
 2611,[PCH] closed fracture of forearm - osteoporosis,2611,PCH_closed_fracture_of_forearm__osteoporosis
 2612,[PCH] closed fracture of humerus - osteoporosis,2612,PCH_closed_fracture_of_humerus__osteoporosis
-2613,[PCH] closed fracture of shoulder - osteoporosis,2613,PCH_closed_fracture_of_shoulder__osteoporosis
+2712,[PCH] Acute renal failure,2712,PCH_Acute_renal_failure
+2713,[PCH] Chronic renal failure - osteoporosis,2713,PCH_Chronic_renal_failure__osteoporosis
+3195,[PCH] osteoporosis total fracture - osteoporosis,3195,PCH_osteoporosis_total_fracture__osteoporosis
+2046,[PCH] Osteoporosis & alendronate,2046,PCH_Osteoporosis__alendronate
+626,[PCH] Osteoporosis & risedronate,626,PCH_Osteoporosis__risedronate
 2045,[PCH] Osteoporosis & ibandronate,2045,PCH_Osteoporosis__ibandronate
-2065,[PCH] Osteoporosis & denosumab,2065,PCH_Osteoporosis__denosumab
-2064,[PCH] Osteoporosis & bisphosphonate,2064,PCH_Osteoporosis__bisphosphonate
+3225,[PCH] Osteoporosis & denosumab (osteoporosis major fracture),3225,PCH_Osteoporosis__denosumab_osteoporosis_major_fracture
+3226,[PCH] Osteoporosis & bisphosphonate (osteoporosis major fracture),3226,PCH_Osteoporosis__bisphosphonate_osteoporosis_major_fracture
+3232,[PCH] Osteoporosis & denosumab (total fracture),3232,PCH_Osteoporosis__denosumab_total_fracture
+3231,[PCH] Osteoporosis & bisphosphonate (total fracture),3231,PCH_Osteoporosis__bisphosphonate_total_fracture
+3229,[PCH] Osteoporosis & denosumab (total fracture naive),3229,PCH_Osteoporosis__denosumab_total_fracture_naive
+3230,[PCH] Osteoporosis & bisphosphonate (total fracture naive),3230,PCH_Osteoporosis__bisphosphonate_total_fracture_naive
+3227,[PCH] Osteoporosis & denosumab (osteoporosis major fracture naive),3227,PCH_Osteoporosis__denosumab_osteoporosis_major_fracture_naive
+3228,[PCH] Osteoporosis & bisphosphonate (osteoporosis major fracture naive),3228,PCH_Osteoporosis__bisphosphonate_osteoporosis_major_fracture_naive
+3240,[PCH] Osteoporosis & denosumab (Old),3240,PCH_Osteoporosis__denosumab_Old
+3239,[PCH] Osteoporosis & bisphosphonate (Old),3239,PCH_Osteoporosis__bisphosphonate_Old
+3238,[PCH] Osteoporosis & denosumab (Young),3238,PCH_Osteoporosis__denosumab_Young
+3237,[PCH] Osteoporosis & bisphosphonate (Young),3237,PCH_Osteoporosis__bisphosphonate_Young
+3235,[PCH] Osteoporosis & denosumab (Female),3235,PCH_Osteoporosis__denosumab_Female
+3236,[PCH] Osteoporosis & bisphosphonate (Female),3236,PCH_Osteoporosis__bisphosphonate_Female
+3233,[PCH] Osteoporosis & denosumab (Male),3233,PCH_Osteoporosis__denosumab_Male
+3234,[PCH] Osteoporosis & bisphosphonate (Male),3234,PCH_Osteoporosis__bisphosphonate_Male

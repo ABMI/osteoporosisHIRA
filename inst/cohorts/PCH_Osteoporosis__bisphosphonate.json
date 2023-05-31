@@ -36,11 +36,153 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 75910,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2089002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteitis deformans",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4264281,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "397181002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Open fracture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443392,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "363346000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Malignant neoplastic disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[PCH] exclusion criteria (paget, high energy trauma, malignant neoplasm)",
+      "id": 16
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 1524674,
             "STANDARD_CONCEPT": "S",
             "CONCEPT_CODE": "77655",
             "VOCABULARY_ID": "RxNorm",
             "CONCEPT_NAME": "zoledronic acid",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1511646,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "11473",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pamidronate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1521987,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "32915",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "teriparatide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1511251,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2123126",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "romosozumab",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1513103,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "72143",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "raloxifene",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44506794,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1441386",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "bazedoxifene",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Ingredient",
@@ -70,23 +212,6 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 1511646,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "11473",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "pamidronate",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Ingredient",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 21604151,
             "STANDARD_CONCEPT": "C",
             "CONCEPT_CODE": "M05BA03",
@@ -99,13 +224,75 @@
           },
           "includeMapped": false,
           "includeDescendants": true
-        }
-      ]},
-      "name": "[PCH] other bisphosphonate",
-      "id": 12
-    },
-    {
-      "expression": {"items": [
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602783,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "H05AA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "teriparatide; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1501781,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "M05BX06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "romosozumab",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602625,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "G03XC01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "raloxifene; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602626,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "G03XC02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "bazedoxifene; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
         {
           "isExcluded": false,
           "concept": {
@@ -141,99 +328,8 @@
           "includeDescendants": true
         }
       ]},
-      "name": "[PCH] denosumab",
-      "id": 15
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 75910,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "2089002",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Osteitis deformans",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4300192,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "77493009",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Fracture of pelvis",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4264281,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "397181002",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Open fracture",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4230399,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "359817006",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Closed fracture of hip",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 443392,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "363346000",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Malignant neoplastic disease",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        }
-      ]},
-      "name": "[PCH] exclusion criteria (paget, hip fracture, high energy trauma, malignant neoplasm)",
-      "id": 16
+      "name": "[PCH] denosumab and other osteoporosis drug",
+      "id": 18
     },
     {
       "expression": {"items": [
@@ -375,13 +471,13 @@
         }
       ]},
       "name": "[PCH] bisphosphonate",
-      "id": 17
+      "id": 19
     }
   ],
   "EndStrategy": {"CustomEra": {
-    "DrugCodesetId": 17,
+    "DrugCodesetId": 19,
     "DaysSupplyOverride": null,
-    "GapDays": 30,
+    "GapDays": 90,
     "Offset": 0
   }},
   "cdmVersionRange": ">=5.0.0",
@@ -389,7 +485,7 @@
     "OccurrenceEndDate": null,
     "CorrelatedCriteria": null,
     "DrugSourceConcept": null,
-    "CodesetId": 15,
+    "CodesetId": 18,
     "DrugTypeExclude": false,
     "Quantity": null,
     "DrugType": null,
@@ -480,7 +576,7 @@
             "OccurrenceEndDate": null,
             "CorrelatedCriteria": null,
             "DrugSourceConcept": null,
-            "CodesetId": 15,
+            "CodesetId": 18,
             "DrugTypeExclude": false,
             "Quantity": null,
             "DrugType": null,
@@ -510,62 +606,7 @@
         "Groups": [],
         "Count": null
       },
-      "name": "exclude denosumab intake",
-      "description": null
-    },
-    {
-      "expression": {
-        "CriteriaList": [{
-          "RestrictVisit": false,
-          "StartWindow": {
-            "UseEventEnd": false,
-            "Start": {
-              "Days": null,
-              "Coeff": -1
-            },
-            "End": {
-              "Days": null,
-              "Coeff": 1
-            },
-            "UseIndexEnd": false
-          },
-          "IgnoreObservationPeriod": false,
-          "EndWindow": null,
-          "Criteria": {"DrugExposure": {
-            "OccurrenceEndDate": null,
-            "CorrelatedCriteria": null,
-            "DrugSourceConcept": null,
-            "CodesetId": 12,
-            "DrugTypeExclude": false,
-            "Quantity": null,
-            "DrugType": null,
-            "ProviderSpecialty": null,
-            "EffectiveDrugDose": null,
-            "Gender": null,
-            "DaysSupply": null,
-            "DoseUnit": null,
-            "VisitType": null,
-            "Refills": null,
-            "First": null,
-            "OccurrenceStartDate": null,
-            "RouteConcept": null,
-            "StopReason": null,
-            "LotNumber": null,
-            "Age": null
-          }},
-          "Occurrence": {
-            "Type": 0,
-            "CountColumn": null,
-            "IsDistinct": false,
-            "Count": 0
-          }
-        }],
-        "Type": "ALL",
-        "DemographicCriteriaList": [],
-        "Groups": [],
-        "Count": null
-      },
-      "name": "exclude other bisphosphonate (zoledronic acid, pamidronate)",
+      "name": "exclude denosumab and other bisphosphonate intake",
       "description": null
     },
     {
@@ -614,7 +655,7 @@
         "Groups": [],
         "Count": null
       },
-      "name": "exclude paget, hip fracture, high energy trauma, neoplasm before index date",
+      "name": "exclude paget, high energy trauma, neoplasm before index date",
       "description": null
     }
   ],
@@ -623,7 +664,7 @@
       "OccurrenceEndDate": null,
       "CorrelatedCriteria": null,
       "DrugSourceConcept": null,
-      "CodesetId": 17,
+      "CodesetId": 19,
       "DrugTypeExclude": false,
       "Quantity": null,
       "DrugType": null,
